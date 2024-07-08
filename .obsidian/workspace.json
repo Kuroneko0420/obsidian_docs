@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/一口气了解黄金.md",
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b5c4b3d33b4aeb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/一口气了解黄金.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/一口气了解黄金.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/一口气了解黄金.md"
+                "file": "未命名.md"
               }
             }
           }
@@ -170,13 +183,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "add491c11c4d44c4",
+  "active": "6b5c4b3d33b4aeb0",
   "lastOpenFiles": [
-    "学习/未命名.canvas",
+    "www.baidu.com.md",
     "学习/一口气了解黄金.md",
+    "学习/未命名.canvas",
     "未命名.md",
     "证券市场基本法律法规/证券市场基本法律法规.md",
-    "www.baidu.com.md",
     "素材图片/公司登记机关办法营业执照.png",
     "素材图片/发起设立.png",
     "素材图片/募集设立.png",
