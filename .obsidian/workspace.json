@@ -35,6 +35,21 @@
             }
           },
           {
+            "id": "8e6a00f38453d7a6",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "学习/计算机网络/未命名.canvas",
+                "viewState": {
+                  "x": -80,
+                  "y": -135,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
             "id": "ab7c9c3e2f61eaef",
             "type": "leaf",
             "state": {
@@ -59,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,7 +201,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6b5c4b3d33b4aeb0",
+  "active": "8e6a00f38453d7a6",
   "lastOpenFiles": [
     "学习/未命名.canvas",
     "学习/计算机网络/未命名.canvas",
