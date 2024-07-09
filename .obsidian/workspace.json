@@ -38,14 +38,11 @@
             "id": "8e6a00f38453d7a6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "学习/计算机网络/未命名.canvas",
-                "viewState": {
-                  "x": -80,
-                  "y": -135,
-                  "zoom": 0
-                }
+                "file": "学习/计算机网络/整体计划.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -140,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/计算机网络/未命名.canvas",
+                "file": "学习/计算机网络/整体计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/计算机网络/未命名.canvas",
+                "file": "学习/计算机网络/整体计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/计算机网络/未命名.canvas"
+                "file": "学习/计算机网络/整体计划.md"
               }
             }
           }
@@ -203,8 +200,9 @@
   },
   "active": "8e6a00f38453d7a6",
   "lastOpenFiles": [
-    "学习/未命名.canvas",
     "学习/计算机网络/未命名.canvas",
+    "学习/计算机网络/整体计划.md",
+    "学习/未命名.canvas",
     "未命名.md",
     "学习/计算机网络",
     "www.baidu.com.md",
