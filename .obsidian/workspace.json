@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "构建交易系统/云聪13个买点/买点，卖点，止损点，止盈点.md",
+                "file": "构建交易系统/云聪13个买点/底部结构反转买点.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "构建交易系统/云聪13个买点/买点，卖点，止损点，止盈点.md",
+                "file": "构建交易系统/云聪13个买点/底部结构反转买点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "构建交易系统/云聪13个买点/买点，卖点，止损点，止盈点.md",
+                "file": "构建交易系统/云聪13个买点/底部结构反转买点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "构建交易系统/云聪13个买点/买点，卖点，止损点，止盈点.md"
+                "file": "构建交易系统/云聪13个买点/底部结构反转买点.md"
               }
             }
           }
@@ -172,9 +172,11 @@
   },
   "active": "8e6a00f38453d7a6",
   "lastOpenFiles": [
+    "构建交易系统/买点，卖点，止损点，止盈点.md",
+    "构建交易系统/云聪13个买点/底部结构反转买点.md",
+    "构建交易系统/不努力学习真的会死，加油学习.md",
     "构建交易系统/聊聊止盈.md",
     "未命名.md",
-    "构建交易系统/云聪13个买点/买点，卖点，止损点，止盈点.md",
     "证券市场基本法律法规/证券市场基本法律法规.md",
     "学习/计算机网络/未命名.canvas",
     "学习/计算机网络/整体计划.md",
