@@ -8,39 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "add491c11c4d44c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b5c4b3d33b4aeb0",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "学习/计算机网络/未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
             "id": "8e6a00f38453d7a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "构建交易系统/聊聊止盈.md",
+                "file": "构建交易系统/云聪13个买点/买点，卖点，止损点，止盈点.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "构建交易系统/聊聊止盈.md",
+                "file": "构建交易系统/云聪13个买点/买点，卖点，止损点，止盈点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "构建交易系统/聊聊止盈.md",
+                "file": "构建交易系统/云聪13个买点/买点，卖点，止损点，止盈点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "构建交易系统/聊聊止盈.md"
+                "file": "构建交易系统/云聪13个买点/买点，卖点，止损点，止盈点.md"
               }
             }
           }
@@ -200,11 +172,13 @@
   },
   "active": "8e6a00f38453d7a6",
   "lastOpenFiles": [
-    "证券市场基本法律法规/证券市场基本法律法规.md",
-    "学习/计算机网络/整体计划.md",
-    "学习/计算机网络/未命名.canvas",
-    "学习/未命名.canvas",
+    "构建交易系统/聊聊止盈.md",
     "未命名.md",
+    "构建交易系统/云聪13个买点/买点，卖点，止损点，止盈点.md",
+    "证券市场基本法律法规/证券市场基本法律法规.md",
+    "学习/计算机网络/未命名.canvas",
+    "学习/计算机网络/整体计划.md",
+    "学习/未命名.canvas",
     "学习/计算机网络",
     "www.baidu.com.md",
     "学习/一口气了解黄金.md",
@@ -219,7 +193,6 @@
     "素材图片/规范性文件层级.png",
     "素材图片/部门规章层级.png",
     "证券市场基本法律法规",
-    "构建交易系统/聊聊止盈.md",
     "素材图片",
     "交易计划/20240411交易.md",
     "构建交易系统/未命名.canvas",
