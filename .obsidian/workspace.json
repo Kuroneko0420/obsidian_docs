@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "构建交易系统/云聪13个买点/底部结构反转买点.md",
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1aadd5fa31fb9e7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "手记.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,20 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "88cec42b009cf06c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "www.baidu.com.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "构建交易系统/云聪13个买点/底部结构反转买点.md",
+                "file": "手记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "构建交易系统/云聪13个买点/底部结构反转买点.md",
+                "file": "手记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "构建交易系统/云聪13个买点/底部结构反转买点.md"
+                "file": "手记.md"
               }
             }
           }
@@ -170,24 +171,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e6a00f38453d7a6",
+  "active": "1aadd5fa31fb9e7c",
   "lastOpenFiles": [
+    "未命名.md",
+    "手记.md",
+    "www.baidu.com.md",
+    "构建交易系统/云聪13个买点/底部结构反转买点.md",
     "构建交易系统/买点，卖点，止损点，止盈点.md",
     "构建交易系统/心法/痛苦都是源自于意外.md",
-    "构建交易系统/云聪13个买点/底部结构反转买点.md",
     "构建交易系统/心法",
     "素材图片/二次测试结构讲解.png",
     "素材图片/底部头肩右肩50%结构讲解.png",
     "素材图片/2b结构讲解.png",
     "构建交易系统/不努力学习真的会死，加油学习.md",
     "构建交易系统/聊聊止盈.md",
-    "未命名.md",
     "证券市场基本法律法规/证券市场基本法律法规.md",
     "学习/计算机网络/未命名.canvas",
     "学习/计算机网络/整体计划.md",
     "学习/未命名.canvas",
     "学习/计算机网络",
-    "www.baidu.com.md",
     "学习/一口气了解黄金.md",
     "素材图片/公司登记机关办法营业执照.png",
     "素材图片/发起设立.png",
