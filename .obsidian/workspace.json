@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "a38da5199061a10d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
+          },
+          {
             "id": "ab7c9c3e2f61eaef",
             "type": "leaf",
             "state": {
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,7 +181,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1aadd5fa31fb9e7c",
+  "active": "a38da5199061a10d",
   "lastOpenFiles": [
     "未命名.md",
     "手记.md",
