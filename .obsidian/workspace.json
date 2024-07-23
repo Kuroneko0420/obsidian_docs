@@ -35,9 +35,11 @@
             "id": "a38da5199061a10d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "手记.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -183,8 +185,9 @@
   },
   "active": "a38da5199061a10d",
   "lastOpenFiles": [
-    "未命名.md",
+    "素材图片/猪周期流程图.png",
     "手记.md",
+    "未命名.md",
     "www.baidu.com.md",
     "构建交易系统/云聪13个买点/底部结构反转买点.md",
     "构建交易系统/买点，卖点，止损点，止盈点.md",
@@ -207,7 +210,6 @@
     "素材图片/公司的设立方式.png",
     "素材图片/证券市场法律法规体系总结.png",
     "素材图片/行业自律规则层级3.png",
-    "素材图片/行业自律规则层级2.png",
     "证券市场基本法律法规",
     "素材图片",
     "交易计划/20240411交易.md",
