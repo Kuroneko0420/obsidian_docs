@@ -37,9 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "手记.md",
+                "file": "学习/计算机网络/整体计划.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "ab6ed28ebfdf1e4d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "素材图片/数据的封装与解封装.png"
               }
             }
           },
@@ -56,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "手记.md",
+                "file": "素材图片/数据的封装与解封装.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "手记.md",
+                "file": "素材图片/数据的封装与解封装.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "手记.md"
+                "file": "素材图片/数据的封装与解封装.png"
               }
             }
           }
@@ -183,10 +193,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a38da5199061a10d",
+  "active": "809d0e113cb75050",
   "lastOpenFiles": [
-    "素材图片/猪周期流程图.png",
+    "学习/计算机网络/数据传输路径.md",
+    "素材图片/数据的封装与解封装.png",
+    "Pasted image 20240731221658.png",
+    "学习/计算机网络/整体计划.md",
+    "学习/计算机网络/未命名.canvas",
     "手记.md",
+    "素材图片/猪周期流程图.png",
     "未命名.md",
     "www.baidu.com.md",
     "构建交易系统/云聪13个买点/底部结构反转买点.md",
@@ -199,8 +214,6 @@
     "构建交易系统/不努力学习真的会死，加油学习.md",
     "构建交易系统/聊聊止盈.md",
     "证券市场基本法律法规/证券市场基本法律法规.md",
-    "学习/计算机网络/未命名.canvas",
-    "学习/计算机网络/整体计划.md",
     "学习/未命名.canvas",
     "学习/计算机网络",
     "学习/一口气了解黄金.md",
@@ -208,8 +221,6 @@
     "素材图片/发起设立.png",
     "素材图片/募集设立.png",
     "素材图片/公司的设立方式.png",
-    "素材图片/证券市场法律法规体系总结.png",
-    "素材图片/行业自律规则层级3.png",
     "证券市场基本法律法规",
     "素材图片",
     "交易计划/20240411交易.md",
