@@ -44,22 +44,12 @@
             }
           },
           {
-            "id": "ab6ed28ebfdf1e4d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "素材图片/数据的封装与解封装.png"
-              }
-            }
-          },
-          {
-            "id": "ab7c9c3e2f61eaef",
+            "id": "5383f2f0984db398",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "证券市场基本法律法规/证券市场基本法律法规.md",
+                "file": "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md"
+                "file": "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md"
               }
             }
           }
@@ -193,16 +183,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "809d0e113cb75050",
+  "active": "5383f2f0984db398",
   "lastOpenFiles": [
+    "学习/计算机网络/整体计划.md",
+    "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md",
+    "证券市场基本法律法规/证券市场基本法律法规.md",
+    "未命名.md",
     "学习/计算机网络/数据传输路径.md",
     "素材图片/数据的封装与解封装.png",
     "Pasted image 20240731221658.png",
-    "学习/计算机网络/整体计划.md",
     "学习/计算机网络/未命名.canvas",
     "手记.md",
     "素材图片/猪周期流程图.png",
-    "未命名.md",
     "www.baidu.com.md",
     "构建交易系统/云聪13个买点/底部结构反转买点.md",
     "构建交易系统/买点，卖点，止损点，止盈点.md",
@@ -213,7 +205,6 @@
     "素材图片/2b结构讲解.png",
     "构建交易系统/不努力学习真的会死，加油学习.md",
     "构建交易系统/聊聊止盈.md",
-    "证券市场基本法律法规/证券市场基本法律法规.md",
     "学习/未命名.canvas",
     "学习/计算机网络",
     "学习/一口气了解黄金.md",
