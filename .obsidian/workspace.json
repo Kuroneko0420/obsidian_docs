@@ -29,28 +29,10 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "d8912b2319e3e853"
+            }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "fa3fb0b35699d33d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5cc7bd1657aa4058",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md"
-              }
-            },
-            "group": "d8912b2319e3e853"
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +159,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5cc7bd1657aa4058",
+  "active": "1aadd5fa31fb9e7c",
   "lastOpenFiles": [
     "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md",
     "中通客车股票价格.png",
