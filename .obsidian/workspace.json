@@ -35,9 +35,11 @@
             "id": "b5d8f9f113ad5f27",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md"
+                "file": "学习/spark/基础概念.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
+                "file": "学习/spark/基础概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
+                "file": "学习/spark/基础概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md"
+                "file": "学习/spark/基础概念.md"
               }
             }
           }
@@ -172,8 +174,8 @@
   },
   "active": "b5d8f9f113ad5f27",
   "lastOpenFiles": [
-    "学习/shell/多线程脚本.md",
     "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
+    "学习/shell/多线程脚本.md",
     "Excalidraw",
     "未命名.canvas",
     "学习/spark/基础概念.md",
