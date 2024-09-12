@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b5d8f9f113ad5f27",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/shell/多线程脚本.md",
+                "file": "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/shell/多线程脚本.md",
+                "file": "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/shell/多线程脚本.md"
+                "file": "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md"
               }
             }
           }
@@ -156,14 +166,17 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1aadd5fa31fb9e7c",
+  "active": "b5d8f9f113ad5f27",
   "lastOpenFiles": [
+    "学习/shell/多线程脚本.md",
+    "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
+    "Excalidraw",
     "未命名.canvas",
     "学习/spark/基础概念.md",
-    "学习/shell/多线程脚本.md",
     "学习/spark",
     "交易计划/20240411交易.md",
     "学习/shell",
@@ -201,7 +214,6 @@
     "学习/一口气了解黄金.md",
     "证券市场基本法律法规",
     "素材图片",
-    "构建交易系统/未命名.canvas",
-    "构建交易系统/云聪13个买点"
+    "构建交易系统/未命名.canvas"
   ]
 }
