@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "33fa4c45d701b8d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/spark/基础概念.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/shell/多线程脚本.md",
+                "file": "学习/spark/基础概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/shell/多线程脚本.md",
+                "file": "学习/spark/基础概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/shell/多线程脚本.md"
+                "file": "学习/spark/基础概念.md"
               }
             }
           }
@@ -159,10 +171,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1aadd5fa31fb9e7c",
+  "active": "33fa4c45d701b8d1",
   "lastOpenFiles": [
-    "交易计划/20240411交易.md",
     "学习/shell/多线程脚本.md",
+    "学习/spark/基础概念.md",
+    "学习/spark",
+    "交易计划/20240411交易.md",
     "学习/shell",
     "工作/2024-04-10.md",
     "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md",
@@ -199,7 +213,6 @@
     "证券市场基本法律法规",
     "素材图片",
     "构建交易系统/未命名.canvas",
-    "构建交易系统/云聪13个买点",
-    "构建交易系统"
+    "构建交易系统/云聪13个买点"
   ]
 }
