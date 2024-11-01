@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1b741469eb3d2994",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/spark/基础概念.md",
+                "file": "未命名 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/spark/基础概念.md",
+                "file": "未命名 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/spark/基础概念.md"
+                "file": "未命名 1.md"
               }
             }
           }
@@ -172,10 +184,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b5d8f9f113ad5f27",
+  "active": "1b741469eb3d2994",
   "lastOpenFiles": [
-    "学习/shell/多线程脚本.md",
     "学习/spark/基础概念.md",
+    "未命名 1.md",
+    "学习/shell/多线程脚本.md",
     "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
     "Excalidraw",
     "未命名.canvas",
