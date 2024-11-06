@@ -36,18 +36,6 @@
             }
           },
           {
-            "id": "ad1b5b66e38f4cc8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
             "id": "165c0b8b3948b686",
             "type": "leaf",
             "state": {
@@ -62,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "构建交易系统/心法/感悟.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 的反向链接列表"
+              "title": "感悟 的反向链接列表"
             }
           },
           {
@@ -153,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "构建交易系统/心法/感悟.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "感悟 的出链列表"
             }
           },
           {
@@ -180,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md"
+                "file": "构建交易系统/心法/感悟.md"
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "感悟 的大纲"
             }
           }
         ]
@@ -204,7 +192,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ad1b5b66e38f4cc8",
+  "active": "1aadd5fa31fb9e7c",
   "lastOpenFiles": [
     "学习/shell/多线程脚本.md",
     "构建交易系统/心法/川哥语录.md",
