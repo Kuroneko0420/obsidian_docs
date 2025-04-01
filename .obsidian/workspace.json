@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "止损.md",
+                "file": "构建交易系统/踏上交易之路/止损.md",
                 "mode": "source",
                 "source": false
               },
@@ -90,9 +90,21 @@
               "icon": "lucide-file",
               "title": "川哥语录"
             }
+          },
+          {
+            "id": "790f73e0d9681fdb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -235,10 +247,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "814e3fe21780b02d",
+  "active": "790f73e0d9681fdb",
   "lastOpenFiles": [
     "构建交易系统/踏上交易之路/培养正确的交易理念&如何开始学习.md",
-    "止损.md",
+    "构建交易系统/踏上交易之路/止损.md",
     "构建交易系统/踏上交易之路",
     "构建交易系统/心法/感悟.md",
     "构建交易系统/心法/痛苦都是源自于意外.md",
