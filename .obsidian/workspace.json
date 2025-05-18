@@ -130,9 +130,21 @@
               "icon": "lucide-file",
               "title": "止损"
             }
+          },
+          {
+            "id": "4ece2661a690b3ea",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -275,7 +287,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "37d7f4cf63dbf76d",
+  "active": "4ece2661a690b3ea",
   "lastOpenFiles": [
     "未命名 1.md",
     "构建交易系统/交易目前存在的疑惑.md",
