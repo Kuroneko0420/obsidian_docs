@@ -53,12 +53,14 @@
             "id": "1e74392bb552ecc3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "交易计划/20251013.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.9.12"
+              "icon": "lucide-file",
+              "title": "20251013"
             }
           }
         ],
@@ -208,6 +210,7 @@
   },
   "active": "1e74392bb552ecc3",
   "lastOpenFiles": [
+    "交易计划/20251013.md",
     "构建交易系统/心法/川哥语录.md",
     "未命名.md",
     "构建交易系统/心法/周五博弈.md",
@@ -239,7 +242,6 @@
     "构建交易系统/心法/主动买套，回调加仓.md",
     "交易计划/20240411交易.md",
     "学习/shell/多线程脚本.md",
-    "学习/spark/基础概念.md",
     "Excalidraw",
     "学习/spark",
     "学习/shell",
