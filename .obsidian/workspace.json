@@ -62,21 +62,9 @@
               "icon": "lucide-file",
               "title": "20251013"
             }
-          },
-          {
-            "id": "6e384ae52b0e89c0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.9.14"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -220,7 +208,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6e384ae52b0e89c0",
+  "active": "1e74392bb552ecc3",
   "lastOpenFiles": [
     "交易计划/20251013.md",
     "构建交易系统/心法/川哥语录.md",
