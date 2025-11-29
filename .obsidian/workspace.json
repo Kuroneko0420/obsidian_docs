@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "构建交易系统/咏交易决策二叉树.md",
+                "file": "学习/spark/transformation算子与aciton算子的区别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "咏交易决策二叉树"
+              "title": "transformation算子与aciton算子的区别"
             }
           },
           {
@@ -224,8 +224,10 @@
   },
   "active": "4063409b0b906712",
   "lastOpenFiles": [
-    "构建交易系统/如何找龙头.md",
+    "学习/spark/基础概念.md",
+    "学习/spark/transformation算子与aciton算子的区别.md",
     "构建交易系统/咏交易决策二叉树.md",
+    "构建交易系统/如何找龙头.md",
     "构建交易系统/新闻催化 逻辑选股法.md",
     "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md",
     "构建交易系统/云聪13个买点/底部结构反转买点.md",
@@ -253,8 +255,6 @@
     "Pasted image 20250224184143.png",
     "Pasted image 20250224184006.png",
     "学习/未命名.canvas",
-    "学习/一口气了解黄金.md",
-    "构建交易系统/不努力学习真的会死，加油学习.md",
     "构建交易系统/价格行为学",
     "Excalidraw",
     "学习/spark",
