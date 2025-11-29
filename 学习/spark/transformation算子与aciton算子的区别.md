@@ -4,4 +4,5 @@
 2.惰性执行
 	transformation类型的算子通常是惰性执行，遇到action类型的算子才会执行触发
 3.操作触发时机
-	transformation类型的算子通常在数据集上定义了一系列的转换操作，而不会立即触发计算。只有当遇到action类型的算子时，spark才会根据····
+	transformation类型的算子通常在数据集上定义了一系列的转换操作，而不会立即触发计算。只有当遇到action类型的算子时，spark才会根据DAG执行之前定义的一系列transformation算子，并将结果返回给驱动程序
+	
