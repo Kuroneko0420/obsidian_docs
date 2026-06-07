@@ -67,6 +67,18 @@
             "id": "76f70908a76ba0ad",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-06-07 22.52.26.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-06-07 22.52.26.excalidraw"
+            }
+          },
+          {
+            "id": "2c1a7cd4add22412",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "数据倾斜专题.md",
@@ -78,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -222,13 +234,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "76f70908a76ba0ad",
+  "active": "2c1a7cd4add22412",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-06-08 07.13.37.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-07 22.52.26.excalidraw.md",
+    "Excalidraw/未命名.md",
+    "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
     "数据倾斜专题.md",
     "构建交易系统/心法/周五博弈.md",
     "Excalidraw/Drawing 2025-05-26 18.11.39.excalidraw.md",
-    "Excalidraw/Drawing 2026-06-07 22.52.26.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
     "低空经济.md",
     "hive执行计划.md",
     "构建交易系统/踏上交易之路/培养正确的交易理念&如何开始学习.md",
@@ -249,8 +263,6 @@
     "构建交易系统/心法/感悟.md",
     "构建交易系统/心法/痛苦都是源自于意外.md",
     "交易计划/20251013.md",
-    "未命名.md",
-    "构建交易系统/价格行为学/Wedge 三推楔形.md",
     "未命名.canvas",
     "构建交易系统/踏上交易之路",
     "Pasted image 20250224184143.png",
