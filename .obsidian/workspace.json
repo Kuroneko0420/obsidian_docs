@@ -67,12 +67,14 @@
             "id": "76f70908a76ba0ad",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-06-07 22.52.26.excalidraw.md"
+                "file": "数据倾斜专题.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-06-07 22.52.26.excalidraw"
+              "icon": "lucide-file",
+              "title": "数据倾斜专题"
             }
           }
         ],
