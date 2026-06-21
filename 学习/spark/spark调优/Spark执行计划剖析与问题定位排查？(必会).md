@@ -14,3 +14,7 @@
 4. **Stage的划分是比较明确的主要 Shuffle 边界划分
 
 ![[Pasted image 20260621164159.png]]
+
+
+
+![[Pasted image 20260621170748.png]]
