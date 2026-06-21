@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据倾斜专题.md",
+                "file": "学习/spark/spark调优/数据倾斜专题.md",
                 "mode": "source",
                 "source": false
               },
@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "任务异常排查思路.md",
+                "file": "学习/spark/spark调优/Spark执行计划剖析与问题定位排查？(必会).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务异常排查思路"
+              "title": "Spark执行计划剖析与问题定位排查？(必会)"
             }
           }
         ],
@@ -161,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 314.5
   },
   "right": {
     "id": "b2be04b225d9c3e5",
@@ -250,9 +250,12 @@
   },
   "active": "fd8dab404a997654",
   "lastOpenFiles": [
+    "Pasted image 20260621164159.png",
+    "学习/spark/spark调优/任务异常排查思路.md",
+    "学习/spark/spark调优/Spark执行计划剖析与问题定位排查？(必会).md",
+    "学习/spark/spark调优",
     "Drawing 2026-06-21 09.33.52.excalidraw.md",
-    "任务异常排查思路.md",
-    "数据倾斜专题.md",
+    "学习/spark/spark调优/数据倾斜专题.md",
     "Excalidraw/Drawing 2026-06-07 22.52.26.excalidraw.md",
     "Excalidraw/Drawing 2026-06-08 07.13.37.excalidraw.md",
     "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
@@ -275,8 +278,6 @@
     "构建交易系统/新闻催化 逻辑选股法.md",
     "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md",
     "构建交易系统/云聪13个买点/底部结构反转买点.md",
-    "构建交易系统/踏上交易之路/止损.md",
-    "构建交易系统/心法/川哥语录.md",
     "未命名.canvas",
     "构建交易系统/踏上交易之路",
     "Pasted image 20250224184143.png",
@@ -298,7 +299,6 @@
     "素材图片/股票学习相关/未命名",
     "素材图片/股票学习相关",
     "学习/计算机网络/未命名.canvas",
-    "构建交易系统/心法",
     "构建交易系统/未命名.canvas"
   ]
 }
