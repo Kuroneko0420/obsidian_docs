@@ -109,12 +109,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eva dasukede asuka.md",
+                "file": "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "eva dasukede asuka"
+              "title": "简历拆解--数据仓库如何分层"
             }
           }
         ],
@@ -264,8 +264,9 @@
   },
   "active": "deaf5af389fa7357",
   "lastOpenFiles": [
+    "学习/shell/多线程脚本.md",
+    "想知道大家对eva中这段的看法？.md",
     "学习/spark/spark调优/数据倾斜专题.md",
-    "eva dasukede asuka.md",
     "学习/spark/spark调优/任务异常排查思路.md",
     "学习/spark/spark调优/Spark执行计划剖析与问题定位排查？(必会).md",
     "Pasted image 20260621170748.png",
@@ -284,7 +285,7 @@
     "构建交易系统/踏上交易之路/培养正确的交易理念&如何开始学习.md",
     "构建交易系统/踏上交易之路/杜绝大亏的入场规则.md",
     "单词.md",
-    "学习/数据仓库建模/未命名.md",
+    "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
     "交易计划/20251203.md",
     "学习/数据仓库建模",
     "学习/spark/transformation算子与aciton算子的区别.md",
@@ -293,7 +294,6 @@
     "构建交易系统/如何找龙头.md",
     "构建交易系统/新闻催化 逻辑选股法.md",
     "构建交易系统/如何 找热点 抓风口 赶题材 顺周期.md",
-    "构建交易系统/云聪13个买点/底部结构反转买点.md",
     "未命名.canvas",
     "构建交易系统/踏上交易之路",
     "Pasted image 20250224184143.png",
