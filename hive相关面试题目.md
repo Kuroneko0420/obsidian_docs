@@ -87,4 +87,30 @@ join 、Group By、 ORDER BY（全局排序） 、COUNT(DISTINCT)、Partition by
 **cluster by:**
 相当于distribute by+sort by，只能默认升序，不能使用倒序。
 
-Hive UDF 函
+## Hive UDF 函数
+
+Udf 函数单⾏操作，⼀对⼀输出 继承 UDF 类 , 重写 evalue 函数 
+UDAF 函数是聚合函数 多对⼀，类继承 UDAF 类，似于 map 和 reduce 功能，先处理每⾏输出，然后局部聚合函数，再写全局聚合函数。 
+UDTF 函数是爆炸函数，⼀对多，继承 UDTF 类，重写 process ⽅法 
+
+## 小文件治理
+
+**首先，小文件产生的根源主要有三个：**  
+一是**流式数据写入**，比如Kafka或Flink高频微批处理写入Hive，几分钟生成一个文件；二是**任务并行度过高**，比如Reduce个数设置过大，或者Spark分区数远大于数据量，导致每个Task只输出极少数据；三是**动态分区**使用不当，比如按“小时”甚至“分钟”分区，每个分区下只有零星数据。
+
+**其次，小文件的危害集中在两点：**  
+一是**NameNode层面**，每个文件、每个Block都要占用NameNode约150字节的元数据内存，大量小文件会撑爆堆内存，导致集群重启缓慢甚至RPC超时；二是**计算层面**，HDFS的设计初衷是让寻址时间仅占传输时间的1%，但小文件会导致大量磁盘寻址开销，同时启动Map任务时也会产生巨大的调度损耗。
+
+
+**接下来是治理手段，我分为“实时写入治理”和“历史存量治理”两部分：**
+
+**对于实时写入任务**，我会在数据写入前做微批合并，使用Hive的`hive.merge.mapredfiles=true`参数，在写入结束后自动触发合并。
+
+**对于历史存量文件**，我会直接使用`INSERT OVERWRITE`重写对应分区，并配合开启一系列合并参数。这里有个核心参数组合：
+- 开启`hive.merge.mapfiles`和`hive.merge.mapredfiles`，让Hive在Map-only任务和MapReduce任务结束后都尝试合并；
+- 设置`hive.merge.smallfiles.avgsize=32000000`，**这是触发合并的开关阈值**；
+- 设置`hive.merge.size.per.task=256000000`，**这是合并后每个目标文件的大小**。
+
+为什么配置了这些参数，任务跑完就会自动合并？因为Hive在**最后一个Job执行完成后**，会检查本次输出的**平均文件大小**。如果这个平均值小于`hive.merge.smallfiles.avgsize`，Hive就会**再启动一个仅含Map阶段的任务**，将输出文件重新读取并写入，写入时的Map切片大小由`mapred.max.split.size`控制。所以，如果我们想让合并生效，就必须让**Map的切片最小值大于平均文件阈值**，否则切出来的文件还是很小，合并就形同虚设。
+
+
