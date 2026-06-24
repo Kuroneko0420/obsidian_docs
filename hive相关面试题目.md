@@ -114,3 +114,26 @@ UDTF 函数是爆炸函数，⼀对多，继承 UDTF 类，重写 process ⽅法
 为什么配置了这些参数，任务跑完就会自动合并？因为Hive在**最后一个Job执行完成后**，会检查本次输出的**平均文件大小**。如果这个平均值小于`hive.merge.smallfiles.avgsize`，Hive就会**再启动一个仅含Map阶段的任务**，将输出文件重新读取并写入，写入时的Map切片大小由`mapred.max.split.size`控制。所以，如果我们想让合并生效，就必须让**Map的切片最小值大于平均文件阈值**，否则切出来的文件还是很小，合并就形同虚设。
 
 
+## hive参数优化
+**第一类：Join与Shuffle提速（最常用）**
+
+- **MapJoin小表缓存**：我几乎不会关闭`set hive.auto.convert.join=true`，核心是控制小表阈值。我会根据集群内存动态调整`set hive.mapjoin.smalltable.filesize`，默认25M，但遇到几百M的维度表时，我会适当调大，让它在Map端完成Join，避免Shuffle。
+
+- **大表分桶Join（SMB）**：当遇到两个事实表都是大表且Key分布均匀时，我会提前设计分桶排序表，并开启`set hive.optimize.bucketmapjoin=true`和`set hive.auto.convert.sortmerge.join=true`，实现桶对桶的Map端Join，彻底避免Reduce端的数据倾斜。
+
+**第二类：数据倾斜专项治理（面试高频，实战重点）**
+
+- **Group By的Map端预聚合**：我会开启`set hive.map.aggr=true`，让Map端先在内存中用Hash表做Combine，减少Shuffle数据量。**但这里有个坑**：如果分组Key的基数特别大（比如唯一值极多），预聚合效果很差还会浪费CPU，此时我会选择关闭它。
+
+- **Group By的负载均衡**：对于严重倾斜的聚合，我会开启`set hive.groupby.skewindata=true`。它会把一个Job拆成两个，第一个随机分发打散倾斜Key，第二个再按真实Key聚合。**不过我会慎用**，因为会增加一次MR作业，如果数据量不大，反而变慢。
+
+- **Join倾斜自动优化**：对于Join阶段的数据倾斜，我会开启`set hive.optimize.skewjoin=true`，并设置`set hive.skewjoin.key=5000000`（比如超过500万行就认为是倾斜Key）。**这里有个极其重要的避坑点**：这个参数绝对不能和并行执行(`hive.exec.parallel`)同时开启，否则特定场景下会丢数据，这是我们线上血的教训。
+
+**第三类：资源与稳定性兜底（防止任务失败）**
+
+- **控制Map与Reduce个数**：我不会手动设置`mapred.reduce.tasks`，除非特定场景。我一般通过`set hive.exec.reducers.bytes.per.reducer`来控制每个Reduce处理的数据量（比如设为1GB或2GB），让Hive自动推断合理的Reduce数。对于Map端，我会开启`set hive.input.format=CombineHiveInputFormat`，并调整`mapred.max.split.size`来合并小文件，防止启动成千上万个Map任务打崩集群。
+- **内存与并行度权衡**：当遇到OOM时，我会调大`set mapreduce.map.memory.mb`和`mapreduce.reduce.memory.mb`，并同步调整`-Xmx`堆内存参数（给JVM留足余量）。如果想加速，我会开启`set hive.exec.parallel=true`让无关Stage并行跑，但我会将并行线程数`hive.exec.parallel.thread.number`控制在合理范围（比如8个以内），防止资源争抢导致所有任务一起卡死。
+
+**调参的本质不是把参数值调大，而是做‘资源置换’。**  
+增大MapJoin阈值是**用内存换磁盘IO**；开启负载均衡是**用计算时间换数据均匀**；合并小文件是**用计算资源换NameNode稳定性**。  
+所以我每次调优前，一定会先看执行计划（Explain）和任务日志，判断当前瓶颈是**CPU、内存、磁盘IO还是网络**，找到真正的短板后，再精准调整对应的那一两个参数。盲目堆砌参数，往往适得其反。
