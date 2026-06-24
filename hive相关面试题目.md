@@ -50,3 +50,6 @@ join 、Group By、 ORDER BY（全局排序） 、COUNT(DISTINCT)、Partition by
 
 **5.分箱窗口函数**
 -  ntile() over() 分箱窗口函数，用于将分组数据按照顺序切分成 n 片，返回当前切片值，如果切片不均匀，默认增加到第一个切片中。
+
+# **窗口函数中加Order By和不加Order By的区别？（必背）**
+
