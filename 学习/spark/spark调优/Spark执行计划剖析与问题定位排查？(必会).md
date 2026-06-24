@@ -19,7 +19,7 @@
 
 ![[Pasted image 20260621170748.png]]
 
-### **7、任务变慢除了数据倾斜还有原因导致？**
+### **任务变慢除了数据倾斜还有原因导致？**
 
 #### **1、YARN/对列资源不足导致并行度不足任务慢？**
 
@@ -44,3 +44,51 @@
 #### **3、Task处理数据量或者内存设置不合理导致任务执行慢？**
 
 **某个job/stage的所有task任务整体看所有的task的执行都很慢，那么基本都是单个task处理的数据量过多导致的，一般企业一个task处理一个block大小的文件，但是有些复杂业务场景，比如各种清洗加密复杂计算，这个时候task处理起来就很慢，这个时候可以适当增加task的内存和cpu，或者让每个task处理更少的数据。**
+
+
+
+### **Spark某个Job/Stage执行很慢汇总案例排查？**
+![[Pasted image 20260624180222.png]]
+
+
+### 生产环境中导致task失败的场景汇总（熟悉）？
+
+####  1.数据本身质量有问题？
+
+- JSON/CSV/Parquet 格式损坏，文件损坏；
+- 某一列数据类型不符合预期
+- 反序列化失败，比如某一行某个字段长度太大，超过protocol序列化最大值；
+- 某个 partition 里有脏数据，比如表情包符号乱码等；
+
+####  2.用户代码异常
+
+- `NullPointerException`
+- `ArrayIndexOutOfBoundsException`
+- `ClassCastException，数据类型转换异常；`
+- `IllegalArgumentException`
+- `ArithmeticException,比如计算的分母出现了0；`
+- 比如自定义 UDF/UDTF/UDAF代码抛异常
+
+#### 3.Shuffle / 依赖数据问题
+
+- fetch拉 shuffle 数据时失败
+- 比如读取数据block 丢失，不可用；
+- 因为集群机器原因，网络风暴等，导致task处理网络超时
+- executor 挂掉（因为资源争抢背kill，或者NM节点异常，机器宕机）
+
+#### 4. 资源相关问题
+
+- **task处理数据量过大，导致OOM（最常见），**`GC overhead limit exceeded等；`
+- executor 内存不足导致进程被杀
+- 本地磁盘满了
+- 临时文件写入失败
+- shuffle spill 失败
+
+#### 5.依赖 / 环境问题
+
+- 缺少 jar 包
+- class not found
+- 依赖版本冲突
+- Python 环境异常（PySpark）
+- native library 加载失败
+- 特定机器上的环境变量不一致
