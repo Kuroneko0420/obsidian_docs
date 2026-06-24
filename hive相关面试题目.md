@@ -53,3 +53,7 @@ join 、Group By、 ORDER BY（全局排序） 、COUNT(DISTINCT)、Partition by
 
 # **窗口函数中加Order By和不加Order By的区别？（必背）**
 
+**“加 Order By 本质上改变了窗口的‘视野范围（Window Frame）’。”**
+
+- 如果窗口函数是**排序类**（`row_number` / `rank`），Order By 只负责**排列顺序**。
+- 如果窗口函数是**聚合类**（`sum` / `avg` / `max`），Order By 会强制开启**累积窗口（从第一行到当前行）”**。
