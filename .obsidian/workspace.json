@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -248,8 +248,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fd8dab404a997654",
+  "active": "76f70908a76ba0ad",
   "lastOpenFiles": [
+    "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
     "Pasted image 20260624213354.png",
     "单词.md",
     "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
@@ -275,7 +276,6 @@
     "学习/spark/spark调优/Spark执行计划剖析与问题定位排查？(必会).md",
     "Pasted image 20260624180222.png",
     "学习/spark/spark调优/数据倾斜专题.md",
-    "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
     "学习/shell/多线程脚本.md",
     "学习/spark/spark调优",
     "Drawing 2026-06-21 09.33.52.excalidraw.md",
@@ -294,7 +294,6 @@
     "学习/shell",
     "素材图片/股票学习相关/2024上半年中信海直股票价格.png",
     "素材图片/股票学习相关/2023年美股chatgpt相关股票.png",
-    "素材图片/股票学习相关/2b结构讲解.png",
     "素材图片/金融基础知识",
     "素材图片/股票学习相关/未命名",
     "素材图片/股票学习相关",
