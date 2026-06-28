@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -237,10 +237,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fd8dab404a997654",
+  "active": "8d4d1bd1efb65b19",
   "lastOpenFiles": [
-    "未命名 2.md",
     "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
+    "未命名 2.md",
     "学习/spark/spark调优/任务异常排查思路.md",
     "未命名.md",
     "学习/spark/spark调优/数据倾斜专题.md",
