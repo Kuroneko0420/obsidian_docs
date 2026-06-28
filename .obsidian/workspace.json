@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 319.5
   },
   "right": {
     "id": "b2be04b225d9c3e5",
@@ -274,11 +274,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fd8dab404a997654",
+  "active": "809d0e113cb75050",
   "lastOpenFiles": [
+    "学习/spark/spark调优/数据倾斜专题.md",
+    "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
     "学习/spark/spark调优/任务最近、突然变慢了，如何排查.md",
     "Pasted image 20260624180621.png",
-    "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
     "Pasted image 20260624213354.png",
     "工作/2024-04-10.md",
     "交易计划/20251203.md",
@@ -286,7 +287,6 @@
     "交易计划/20240411交易.md",
     "未命名 1.md",
     "Pasted image 20260626083849.png",
-    "学习/spark/spark调优/数据倾斜专题.md",
     "单词.md",
     "Excalidraw/Drawing 2024-09-12 21.45.54.excalidraw.md",
     "Excalidraw/Drawing 2026-06-08 07.13.37.excalidraw.md",
