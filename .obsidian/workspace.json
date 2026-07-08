@@ -39,12 +39,12 @@
             "id": "2db8a11a28e900d0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "excalidraw",
               "state": {
-                "file": "Pasted image 20250224184006.png"
+                "file": "Drawing 2026-06-21 09.33.52.excalidraw.md"
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250224184006"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-06-21 09.33.52.excalidraw"
             }
           },
           {
@@ -250,6 +250,7 @@
   },
   "active": "2db8a11a28e900d0",
   "lastOpenFiles": [
+    "Pasted image 20250224184006.png",
     "学习/spark/spark调优/数据倾斜专题.md",
     "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
     "学习/心理感悟/30+ IT迷茫期怎么度过.md",
@@ -279,7 +280,6 @@
     "Pasted image 20260621170748.png",
     "Pasted image 20260621164159.png",
     "Pasted image 20250224184143.png",
-    "Pasted image 20250224184006.png",
     "手记.md",
     "想知道大家对eva中这段的看法？.md",
     "未命名.canvas",
