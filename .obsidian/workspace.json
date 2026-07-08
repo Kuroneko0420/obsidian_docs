@@ -39,14 +39,12 @@
             "id": "2db8a11a28e900d0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "学习/spark/spark调优/数据倾斜专题.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20250224184006.png"
               },
-              "icon": "lucide-file",
-              "title": "数据倾斜专题"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250224184006"
             }
           },
           {
@@ -106,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -250,14 +248,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0b7fe673b06b0d37",
+  "active": "2db8a11a28e900d0",
   "lastOpenFiles": [
+    "学习/spark/spark调优/数据倾斜专题.md",
+    "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
     "学习/心理感悟/30+ IT迷茫期怎么度过.md",
     "Pasted image 20260704165952.png",
-    "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
     "学习/心理感悟",
     "学习/spark/spark调优/任务最近、突然变慢了，如何排查.md",
-    "学习/spark/spark调优/数据倾斜专题.md",
     "未命名 2.md",
     "学习/spark/spark调优/任务异常排查思路.md",
     "未命名.md",
