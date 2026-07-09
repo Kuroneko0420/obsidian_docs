@@ -53,12 +53,14 @@
             "id": "fd8dab404a997654",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "学习/数据仓库建模/银行数据采集.md"
+                "file": "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "银行数据采集"
+              "icon": "lucide-file",
+              "title": "简历拆解--数据仓库如何分层"
             }
           },
           {
@@ -250,8 +252,8 @@
   },
   "active": "fd8dab404a997654",
   "lastOpenFiles": [
-    "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
     "学习/数据仓库建模/银行数据采集.md",
+    "学习/数据仓库建模/简历拆解--数据仓库如何分层.md",
     "Pasted image 20250224184006.png",
     "学习/spark/spark调优/数据倾斜专题.md",
     "学习/心理感悟/30+ IT迷茫期怎么度过.md",
